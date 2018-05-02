@@ -1,0 +1,33 @@
+﻿#main_title {
+    text-align:center;
+    color:white;
+    background-color:black;
+}
+
+.sub_title {
+    text-align: center;
+    background-color: LightGrey;
+    color: white;
+}
+
+.sub_detail {
+    text-align: center;
+}
+
+#icon_img {
+    width: 300px;
+    height: 300px;
+    background-color: LightBlue;
+    float: left; /* 横並びにする命令 */
+}
+
+#name {
+    width: 680px;
+    height: 300px;
+    background-color: LightGreen;
+    float: left; /* 横並びにする命令 */
+}
+
+#comment {
+    clear: both; /* 横並びを解除する */
+}

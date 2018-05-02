@@ -111,11 +111,44 @@ https://lealog.hateblo.jp/entry/2011/12/06/202348
 
 
 > ### 6. 第６回 CSSでレイアウト：divタグで箱作り、floatで横並べ
-
-
+**まとめ**
+- `div`タグ
+    - division(区分)を意味する
+    - 単体では意味をなさない
+    - HTMLタグを一つのグループにするもの
+    - div class="hoge" などで命令を記述
+- `float`命令
+    - 要素を並べるためのCSSにおける命令
+    - セレクタの定義に記述する
+    - 何もないと、以降全てにおいて同じルールで並べてしまう
+    - 並べる必要のないセレクタで`clear : both;`で無効化する
+- サンプルプログラム
+    - sample01/lecture06/profile.html
+    - sample01/lecture06/profile.css
 
 > ### 7. 第７回 ボックスモデルとは？：divで作った箱を整える
 
+divで作った箱はボックスモデルと呼ばれる  
+要素は下記
+- border
+- width
+- height
+- content
+- padding
+- margin
+- background
+
+イメージでいうと下記  
+
+![ボックスモデル1](./doc_img/boxmodel_01.png "サンプル")
+
+![ボックスモデル2](./doc_img/boxmodel_02.png "サンプル")
+
+# <font color=orange>__サンプルプログラム作成から再開__</font>
+
+- サンプルプログラム
+    - sample01/lecture07/profile.html
+    - sample02/lecture07/profile.css
 
 
 > ### 8. 第８回 ボックスモデル応用：margin/paddingで視認性向上
